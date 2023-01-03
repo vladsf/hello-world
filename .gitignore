@@ -1,0 +1,4 @@
+vendor/
+bin/.phpunit.result.cache
+bin/php-parse
+bin/phpunit
