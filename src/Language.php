@@ -10,11 +10,13 @@ class Language
     public const LANG_AMERICAN   = 'en-us';
     public const LANG_AUSTRALIAN = 'en-au';
     public const LANG_IRISH      = 'en-ie';
+    public const LANG_UZBEK      = 'uz-uz';
     public const LANGUAGES       = [
         self::LANG_ENGLISH,
         self::LANG_AMERICAN,
         self::LANG_AUSTRALIAN,
         self::LANG_IRISH,
+        self::LANG_UZBEK,
     ];
 
     public function __construct(private string $languageCode)

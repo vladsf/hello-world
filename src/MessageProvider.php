@@ -17,6 +17,7 @@ final class MessageProvider implements MessageProviderInterface
             Language::LANG_AMERICAN => 'Howdy World',
             Language::LANG_IRISH => 'Top o\'the morning World',
             Language::LANG_AUSTRALIAN => 'G\'Day World',
+            Language::LANG_UZBEK => 'Salom Dunyo',
             default => throw new \InvalidArgumentException('Unsupported language code ' .
                                                            $this->language->getLanguageCode())
         };
